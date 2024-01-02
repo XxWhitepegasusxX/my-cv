@@ -132,7 +132,9 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  {work.description.map((description, index) => (
+                    <p key={index}>• {description}</p>
+                  ))}
                 </CardContent>
               </Card>
             );
