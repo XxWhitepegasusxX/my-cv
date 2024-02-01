@@ -44,9 +44,22 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "NaluiStore",
+      link: "",
+      badges: ["Freelancer"],
+      title: "Mobile Developer",
+      start: 'Nov 2023',
+      end: 'Jan 2023',
+      description: [
+        "I designed and implemented a inventory management application for toy rentals. Using React Native and TypeScript, I ensured a cross-platform, performant user interface. The application's data persistence was optimized using WatermelonDB, enhancing offline capabilities and responsiveness. This project showcased my proficiency in mobile development, TypeScript, and efficient data management techniques",
+        "I implemented Docker into the project,streamlining the development environment and enhancing deployment consistency. This addition optimizes the project's workflow, ensuring efficient collaboration and scalability.",
+        "I configured GitHub Actions for continuous integration in the main project, automating the build and testing processes. This implementation ensures a streamlined and efficient development pipeline, promoting code quality and reliability"
+      ]
+    },
+    {
       company: "Plin Tech",
       link: "https://plin.app/furando-a-fila",
-      badges: [],
+      badges: ['Temporary', 'Freelancer'],
       title: "Full Stack Developer",
       start: "Sep 2023",
       end: "Oct 2023",
@@ -114,8 +127,13 @@ export const RESUME_DATA = {
     "Python/Django",
     "Java/Spring",
     "Cypress/Jest",
-    "Docker/RabbitMQ/Kubernetes",
+    "Pytest/Unittest",
+    "Docker/Kubernetes",
     "SQL/NoSQL",
+    "Redis/RabbitMQ",
+    "CI/CD",
+    "Microservices Architecture",
+    "Algorithms"
   ],
   projects: [
     {
